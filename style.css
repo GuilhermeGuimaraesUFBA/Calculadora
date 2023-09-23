@@ -1,8 +1,10 @@
 body{
+    overflow-x: hidden;
     background: #161516;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 0.5fr 3fr
+    
     
     
     
@@ -39,10 +41,18 @@ body{
     align-self: center;
     margin: 0 auto;
     
-    
-    
-    
-    
+}
+#resultado{
+    font-size: 60px;
+    color: white;
+    text-align: right;
+    border-radius: 40px;
+    border: none;
+    background: #000000;
+    height: 100%;
+    width: 600px;
+    align-self: center;
+    margin: 0 auto;
 }
 
 .botoes{
