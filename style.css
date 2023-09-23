@@ -78,8 +78,9 @@ button{
     
 }
 button:active{
-    color: #333333;
-    background: rgb(136, 132, 132);
+    /* color: #333333;
+    background: rgb(136, 132, 132); */
+    opacity: 0.8;
 }
 .botaoigual:active, .botaomais:active, .botaomenos:active, .botaomultiplicacao:active, .botaodivisao:active{
     background: white;
@@ -92,8 +93,9 @@ button:active{
     
 }
 .botaodelete:active, .botaoaoquadrado:active, .botaoraiz:active, .botaofatorial:active{
-    background: rgb(116, 116, 116);
-    color: #A5A5A5
+    /* background: rgb(116, 116, 116);
+    color: #A5A5A5 */
+    opacity: 0.8;
     
 }
 
