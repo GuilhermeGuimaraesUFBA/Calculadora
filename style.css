@@ -57,7 +57,7 @@ body{
 
 .botoes{
     row-gap: 20px;
-    border: transparent;
+    border: none;
     column-gap: 10px;
     height: 100%;
     width: 600px;
@@ -74,6 +74,7 @@ button{
     font-size: 50px;
     border-radius: 50%;
     border-color: #000000; 
+    border: none;
     
 }
 button:active{
@@ -90,8 +91,8 @@ button:active{
     color: #FD9D22;
     
 }
-.botaodelete:active, .botaoaoquadrado:active, .botaoresto:active, .botaofatorial:active{
-    background: #000000;
+.botaodelete:active, .botaoaoquadrado:active, .botaoraiz:active, .botaofatorial:active{
+    background: rgb(116, 116, 116);
     color: #A5A5A5
     
 }
@@ -101,8 +102,14 @@ button:active{
     color: white;
 }
 
-.botaodelete, .botaoaoquadrado, .botaoresto{
+.botaodelete, .botaoaoquadrado, .botaoraiz{
     background: #A5A5A5;
     color: #000000
+}
+
+.botao0{
+    grid-column: span 2;
+    border-radius: 100px;
+    text-align: center;
 }
 
