@@ -13,28 +13,28 @@
     
         <div class="calculadora">
             <div class="tela">
-                <input type="text" id = "resultado" readonly>
+                <input type="text" id="resultado">
             </div>
             <div class="botoes">
-                <button class="botaodelete" onclick="" type="button">AC</button>
-                <button class="botaoaoquadrado" onclick="" type="button">x²</button>
-                <button class="botaoraiz" onclick="" type="button">√</button>
-                <button class="botaodivisao" onclick="" type="button">÷</button>
-                <button class="botao7" onclick="" type="button">7</button>
-                <button class="botao8" onclick="" type="button">8</button>
-                <button class="botao9" onclick="" type="button">9</button>
-                <button class="botaomultiplicacao" onclick="" type="button">×</button>
-                <button class="botao4" onclick="" type="button">4</button>
-                <button class="botao5" onclick="" type="button">5</button>
-                <button class="botao6" onclick="" type="button">6</button>
-                <button class="botaomenos" onclick="" type="button">−</button>
-                <button class="botao1" onclick="" type="button">1</button>
-                <button class="botao2" onclick="" type="button">2</button>
-                <button class="botao3" onclick="" type="button">3</button>
-                <button class="botaomais" onclick="" type="button">+</button>
-                <button class="botao0" onclick="" type="button">0</button>
-                <button class="botaovirgula" onclick="" type="button">,</button>
-                <button class="botaoigual" onclick="" type="reset">=</button>
+                <button class="botaodelete" onclick="clean()" type="">AC</button>
+                <button class="botaoaoquadrado" onclick="insert('**2')" type="button">x²</button>
+                <button class="botaoraiz" onclick="insert('%')" type="button">mod</button>
+                <button class="botaodivisao" onclick="insert('/')" type="button">÷</button>
+                <button class="botao7" onclick="insert('7')" type="button">7</button>
+                <button class="botao8" onclick="insert('8')" type="button">8</button>
+                <button class="botao9" onclick="insert('9')" type="button">9</button>
+                <button class="botaomultiplicacao" onclick="insert('*')" type="button">×</button>
+                <button class="botao4" onclick="insert('4')" type="button">4</button>
+                <button class="botao5" onclick="insert('5')" type="button">5</button>
+                <button class="botao6" onclick="insert('6')" type="button">6</button>
+                <button class="botaomenos" onclick="insert('-')" type="button">−</button>
+                <button class="botao1" onclick="insert('1')" type="button">1</button>
+                <button class="botao2" onclick="insert('2')" type="button">2</button>
+                <button class="botao3" onclick="insert('3')" type="button">3</button>
+                <button class="botaomais" onclick="insert('+')" type="button">+</button>
+                <button class="botao0" onclick="insert('0')" type="button">0</button>
+                <button class="botaovirgula" onclick="insert('.')" type="button">.</button>
+                <button class="botaoigual" onclick="calcular()" type="button">=</button>
             </div>
         </div>
     
