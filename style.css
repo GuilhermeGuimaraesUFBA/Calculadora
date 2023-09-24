@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(45deg,black, LightSlateGray);
+    background-image: linear-gradient(180deg,black, rgb(51, 54, 56));
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 0.4fr 3fr
