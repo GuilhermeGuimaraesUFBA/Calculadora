@@ -5,10 +5,10 @@ function insert(num) {
 function clean() {
     document.getElementById('resultado').value = "";
 }
-function back() {
-    var resultado = document.getElementById('resultado').value;
-    document.getElementById('resultado').value = resultado.substring(0, resultado.length - 1);
-}
+// function back() {
+//     var resultado = document.getElementById('resultado').value;
+//     document.getElementById('resultado').value = resultado.substring(0, resultado.length - 1);
+// }
 function calcular() {
     var resultado = document.getElementById('resultado').value;
     if (resultado) {

@@ -4,17 +4,12 @@ body{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 0.4fr 3fr
-    
-    
-    
-    
 }
 
 .titulo{
     margin: 0 auto;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 .calculadora{
@@ -28,9 +23,7 @@ body{
     width: 500px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 3fr;
-   
-    
+    grid-template-rows: 0.5fr 3fr; 
 }
 
 .tela{
@@ -39,8 +32,8 @@ body{
     width: 500px;
     align-self: center;
     margin: 0 auto;
-    
 }
+
 #resultado{
     font-size: 60px;
     color: white;
@@ -64,9 +57,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr)
-    
-    
 }
+
 button{
     color: white;
     background: #333333;
@@ -74,28 +66,28 @@ button{
     border-radius: 50%;
     border-color: #000000; 
     border: none;
-    
 }
+
 button:active{
     /* color: #333333;
     background: rgb(136, 132, 132); */
     opacity: 0.8;
 }
+
 .botaoigual:active, .botaomais:active, .botaomenos:active, .botaomultiplicacao:active, .botaodivisao:active{
     background: white;
     color: #FD9D22;
-    
 }
+
 .botaoigual:focus, .botaomais:focus, .botaomenos:focus, .botaomultiplicacao:focus, .botaodivisao:focus{
     background: white;
     color: #FD9D22;
-    
 }
+
 .botaodelete:active, .botaoaoquadrado:active, .botaoraiz:active, .botaofatorial:active{
     /* background: rgb(116, 116, 116);
     color: #A5A5A5 */
     opacity: 0.8;
-    
 }
 
 .botaoigual, .botaomais, .botaomenos, .botaomultiplicacao, .botaodivisao{
